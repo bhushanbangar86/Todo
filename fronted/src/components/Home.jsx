@@ -9,6 +9,7 @@ const Home = () => {
         <Header />
         <Input />
         <TodoItems />
+        <p>hi i am here</p>
       </div>
     </>
   );
