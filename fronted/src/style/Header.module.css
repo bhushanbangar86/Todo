@@ -1,0 +1,28 @@
+.head {
+  text-align: center;
+  font-size: 38px;
+  margin: 25px 0;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00c9a7, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .head {
+    background: linear-gradient(90deg, #22d3ee, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
